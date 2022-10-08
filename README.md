@@ -6,8 +6,6 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/Cien-Yuriy/full/G
 
 ![demo](https://github.com/Cien-Yuriy/ProgressBar-Component/blob/main/images/demo.png)
 
----
-
 ![demo mobile](https://github.com/Cien-Yuriy/ProgressBar-Component/blob/main/images/demo-mobile.png)
 
 ---
