@@ -39,3 +39,41 @@ p {
   font-size: 18px;
   font-family: sans-serif;
 }
+@media (max-width: 1220px) {
+  #box {
+    width: 100%;
+  }
+  .bar {
+    width: calc((100vw - 26px - 302px) / 74);
+    border-radius: 3px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  #box {
+    height: 150px;
+    grid-template-rows: 1fr 1.5fr;
+  }
+  .bar {
+    width: calc((100vw - 26px - 95px) / 74);
+    margin-left: 0.6px;
+    margin-right: 0.6px;
+  }
+  #legend {
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -15px;
+  }
+}
+@media (max-width: 400px) {
+  .dots {
+    width: 13px;
+    height: 13px;
+    margin-bottom: -2px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
